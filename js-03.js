@@ -14,9 +14,12 @@ teslaX.drive();
 // СТВОРЕННЯ ШАБЛОНУ(КЛАСУ) ДЛЯ СТВОРЕННЯ ОБ'ЄКТІВ)
 // class Car {
 //   constructor(make, model, price) {
+ // /* тут конструктор створює порожній об'єкт this = {}*/
 //     this.make = make;
 //     this.model = model;
 //     this.price = price;
+//  /* тут додає до обєкта функцію this.drive = fn...*/
+ // /* тут повертає значення обєкту return this;*/
 //   }
 //   drive() {
 //     console.log(this.make + ' ' + this.model + ' goes zoom zoom!');
